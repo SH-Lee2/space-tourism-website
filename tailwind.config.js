@@ -5,9 +5,10 @@ module.exports = {
   ],
   theme: {
     screens: {
+      s: '375PX',
       sm: '480px',
       md: '768px',
-      lg: '1024px',
+      lg: '1088px',
       xl: '1440px',
     },
     
@@ -21,7 +22,9 @@ module.exports = {
         lightGray : "rgba(255, 255, 255, 0.04)"
       },
       backgroundImage: {
-        'home': "url('/src/assets/home/background-home-desktop.jpg')",
+        'home-d': "url('/src/assets/home/background-home-desktop.jpg')",
+        'home-t' : "url('/src/assets/home/background-home-tablet.jpg')",
+        'home-m' : "url('/src/assets/home/background-home-mobile.jpg')",
       }
     },
   },
